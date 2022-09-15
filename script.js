@@ -62,5 +62,16 @@ const calscore = (e)=>{
     setTimeout(nextQuestion, 300);
 }
 
+const nextQuestion = ()=>{
+    if(i<questionBank.length-1){
+        i = i+1
+        displayQuestion();
+    }
+    else{
+        points.innerHTML = score+'/'+questionBank.length;
+        quizContainer.style.display = 'block'
+    }
+}
+
 
 displayQuestion();
