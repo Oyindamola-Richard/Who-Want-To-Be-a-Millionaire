@@ -33,7 +33,7 @@ var option0 = document.getElementById('option0');
 var option1 = document.getElementById('option1');
 var option2 = document.getElementById('option2');
 var option3 = document.getElementById('option3');
-var next = document.querySelectorAll('.next');
+var next = document.querySelector('.next');
 var points = document.getElementById('score');
 var span = document.querySelectorAll('span');
 var i = 0;
@@ -71,6 +71,14 @@ const nextQuestion = ()=>{
         points.innerHTML = score+'/'+questionBank.length;
         quizContainer.style.display = 'block'
     }
+}
+
+//click event to next button
+next.addEventListener('click',nextQuestion);
+
+//back to Quiz button event
+const backToQuiz = ()=>{
+    location.reload();
 }
 
 
