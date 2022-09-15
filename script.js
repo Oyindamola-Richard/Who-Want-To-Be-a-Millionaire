@@ -81,5 +81,17 @@ const backToQuiz = ()=>{
     location.reload();
 }
 
+// function to check anwsers
+const checkAnswer = ()=>{
+    var answerBank = document.getElementById('answerBank');
+    var answers = document.getElementById('answers');
+    answerBank.style.display = 'block';
+    scorecard.style.display = 'block';
+    for(var a=0; a<questionBank.length; a++){
+        var list = document.createElement('li');
+        list.innerHTML = questionBank[a].answer;
+        answers.appendChild(list);
+    }
 
+}
 displayQuestion();
