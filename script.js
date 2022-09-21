@@ -43,7 +43,7 @@ const displayQuestion = ()=>{
     for(var a=0; a<span.length; a++){
         span[a].style.background = 'none;'
     }
-    question.innerHTML =questionBank[i].question;
+    question.innerHTML = questionBank[i].question;
     option0.innerHTML = questionBank[i].option[0];
     option1.innerHTML = questionBank[i].option[1];
     option2.innerHTML = questionBank[i].option[2];

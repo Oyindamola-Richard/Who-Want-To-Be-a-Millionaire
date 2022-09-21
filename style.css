@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    /* backdrop-filter: blur(2px); */
 }
 .alt-icon-div{
     display: flex;
@@ -22,6 +23,23 @@ body{
 }
 #quiz-container{
     border: 1px solid red;
+}
+#question-div{
+    border: 5px solid #ffffff;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 2px 2px 2px 2px;
+    border-radius: 50px;
+}
+#question{
+    border: 1px solid #ffffff;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    background-color: #0715C2;
 }
 #scoreboard{
     display: none;
