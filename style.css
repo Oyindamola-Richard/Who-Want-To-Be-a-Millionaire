@@ -42,12 +42,20 @@ body{
     background-color: #0715C2;
 }
 ol{
-    border: 1px solid yellow;
+    border: 1px solid #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style: none;
 }
 li{
-    border: 1px solid green;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    border-radius: 50px;
+    background-color: #0715C2;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 #scoreboard{
     display: none;
