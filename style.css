@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     color: #ffffff;
@@ -22,4 +23,16 @@ body{
 }
 #alt-icon{
     cursor: pointer;
+}
+#quiz-container{
+    border: 1px solid red;
+}
+#scoreboard{
+    display: none;
+}
+#answerBank{
+    display: none;
+}
+.next{
+    display: none;
 }
