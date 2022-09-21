@@ -55,10 +55,10 @@ const displayQuestion = ()=>{
 const calcScore = (e)=>{
     if(e.innerHTML===questionBank[i].answer && score<questionBank.length){
         score = score+1;
-        document.getElementById(e.id).style.background = 'limegreen';
+        document.getElementById(e.id).style.background = 'green';
     }
     else{
-        document.getElementById(e.id).style.background = 'tomato';
+        document.getElementById(e.id).style.background = 'red';
     }
     setTimeout(nextQuestion, 300);
 }
