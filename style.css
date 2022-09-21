@@ -2,6 +2,11 @@
     margin: 0;
 }
 body{
+    /* color: #ffffff; */
     font-family: sans-serif;
-    background-color: ;
+    /* background-image: url(/img/game-background.jpg); */
+    background-color: blueviolet;
+}
+#title{
+    text-align: center;
 }
