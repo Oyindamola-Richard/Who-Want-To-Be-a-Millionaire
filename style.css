@@ -2,17 +2,24 @@
     margin: 0;
 }
 body{
-    /* color: #ffffff; */
+    color: #ffffff;
     font-family: sans-serif;
-    /* background-image: url(/img/game-background.jpg); */
+    background-image: url(/img/game-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     /* background-color: blueviolet; */
 }
-#title{
+/* #title{
     text-align: center;
-}
-.alt-icon{
-    border: 1px solid red;
+} */
+.alt-icon-div{
     display: flex;
     justify-content: end;
     gap: 30px;
+    padding: 20px 20px 0px 0px;
+}
+#alt-icon{
+    cursor: pointer;
 }
