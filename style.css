@@ -52,13 +52,13 @@ ol{
     margin: auto;
     padding: 15px 0px 0px 0px;
 }
-.li-div{
+.option-div{
     border: 5px solid #ffffff;
     text-align: center;
     padding: 2px;
     border-radius: 50px;
 }
-li{
+.option{
     border: 1px solid #ffffff;
     text-align: center;
     padding: 7px 20px;
