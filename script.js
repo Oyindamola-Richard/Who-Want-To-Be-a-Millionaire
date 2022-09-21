@@ -60,7 +60,7 @@ const calcScore = (e)=>{
     else{
         document.getElementById(e.id).style.background = 'red';
     }
-    setTimeout(nextQuestion, 300);
+    setTimeout(nextQuestion, 2it 000);
 }
 
 const nextQuestion = ()=>{
