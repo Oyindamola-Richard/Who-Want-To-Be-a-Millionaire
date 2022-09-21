@@ -49,7 +49,7 @@ ol{
     list-style: none;
     max-width: 1000px;
     margin: auto;
-    padding: 0;
+    padding: 15px 0px 15px 0px;
 }
 li{
     border: 1px solid #ffffff;
