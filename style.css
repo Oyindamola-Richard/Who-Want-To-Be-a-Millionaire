@@ -5,8 +5,14 @@ body{
     /* color: #ffffff; */
     font-family: sans-serif;
     /* background-image: url(/img/game-background.jpg); */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #title{
     text-align: center;
+}
+.alt-icon{
+    border: 1px solid red;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
 }
