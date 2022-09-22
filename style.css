@@ -92,7 +92,10 @@ span{
     }
     .alt-icon-div{
         justify-content: center;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
+    }
+    .alticon{
+        height: 40px;
     }
     #quiz-container{
         position: absolute;
