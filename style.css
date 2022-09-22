@@ -125,7 +125,9 @@ span{
     }
 }
 @media all and (min-width:321px) and (max-width:375px){
-    
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+        }
 }
 /* @media all and (min-width:376px) and (max-width:425px){
     
