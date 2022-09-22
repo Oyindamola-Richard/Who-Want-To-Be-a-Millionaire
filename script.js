@@ -101,3 +101,6 @@ displayQuestion();
 function fifty(){
     document.getElementById('fifty').src="/img/50-50-used.png"
 }
+function phone(){
+    document.getElementById('phone').src="/img/phone-a-friend-used.png"
+}
