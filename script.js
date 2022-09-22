@@ -99,5 +99,5 @@ const checkAnswer = ()=>{
 displayQuestion();
 
 function fifty(){
-    document.getElementById('altIcon').src="/img/50-50-used.png"
+    document.getElementById('fifty').src="/img/50-50-used.png"
 }
