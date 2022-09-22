@@ -135,6 +135,11 @@ span{
         justify-content: center;
         padding: 10px 0px 0px 0px;
     }
+    #quiz-container{
+        position: absolute;
+        bottom: 0;
+        width: 320px;
+    }
 }
 /* @media all and (min-width:376px) and (max-width:425px){
     
