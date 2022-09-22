@@ -70,14 +70,19 @@ const calcScore = (e)=>{
     else{
         document.getElementById(e.id).style.background = 'red';
         incorrectSound.play()
+        // alert("Game Over")
+
     }
-    setTimeout(nextQuestion, 2000);
+    setTimeout(nextQuestion, 3000);
 }
 
 const nextQuestion = ()=>{
     if(i < questionBank.length - 1){
         i = i+1
         displayQuestion();
+        // setTimeout(nextQuestion, 5000)
+        // alert("Game Over")
+        // location.reload()
     }
     else{
         points.innerHTML = `Congratulation youve earned $ ${score}`;
