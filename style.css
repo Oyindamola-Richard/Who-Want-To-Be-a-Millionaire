@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* backdrop-filter: blur(2px); */
 }
 .gen-container{
@@ -83,9 +83,11 @@ span{
 }
 
 /* responsiveness */
-/* @media all and (max-width:320px){
-    
-} */
+@media all and (max-width:320px){
+    .gen-container{
+        padding: 10px;
+    }
+}
 /* @media all and (min-width:321px) and (max-width:375px){
     
 } */
