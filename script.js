@@ -98,6 +98,6 @@ const checkAnswer = ()=>{
 }
 displayQuestion();
 
-// const fifty = ()=>{
-//     alticon.innerHTML = `<img src="/img/50-50-used.png" alt="" srcset="">`
-// }
+function fifty(){
+    document.getElementById('altIcon').src="/img/50-50-used.png"
+}
