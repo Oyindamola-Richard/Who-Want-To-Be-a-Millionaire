@@ -98,19 +98,23 @@ const checkAnswer = ()=>{
 }
 displayQuestion();
 
+// function to 50/50 option
 function fifty(){
     option0.innerHTML = "....."
     option3.innerHTML = "....."
     document.getElementById('fifty').src="/img/50-50-used.png"
     let fifty = document.getElementById("fifty")
     fifty.onclick = ""
-
 }
+
+// function to phone a friend
 function phone(){
     document.getElementById('phone').src="/img/phone-a-friend-used.png"
     let phone = document.getElementById("phone")
     phone.onclick = ""
 }
+
+// function to ask audience
 function ask(){
     document.getElementById('ask').src="/img/ask-the-audience-used.png"
     let ask = document.getElementById("ask")
