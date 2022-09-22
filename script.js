@@ -61,7 +61,7 @@ const displayQuestion = ()=>{
 }
 
 //function to calculate scores
-const calcScore = (e)=>{
+function calcScore(e){
     if(e.innerHTML === questionBank[i].answer && score > questionBank.length){
         score += 500;
         document.getElementById(e.id).style.background = 'green';
@@ -80,6 +80,7 @@ const nextQuestion = ()=>{
     if(i < questionBank.length - 1){
         i = i+1
         displayQuestion();
+        //option2.style.background = "blue"
         // setTimeout(nextQuestion, 5000)
         // alert("Game Over")
         // location.reload()

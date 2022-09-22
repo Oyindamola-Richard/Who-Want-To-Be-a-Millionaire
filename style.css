@@ -11,18 +11,21 @@ body{
     height: 100vh;
     /* backdrop-filter: blur(2px); */
 }
+.gen-container{
+    padding: 20px;
+}
 .alt-icon-div{
     display: flex;
     justify-content: end;
     gap: 30px;
-    padding: 20px 20px 0px 0px;
 }
 .alticon{
     cursor: pointer;
 }
 #quiz-container{
     /* border: 1px solid red; */
-    padding: 15px 0px;
+    /* position: absolute;
+    bottom: 0px; */
     margin-top: 270px;
 }
 #question-div{
@@ -83,9 +86,9 @@ span{
 }
 
 /* responsiveness */
-@media all and (max-width:320px){
+/* @media all and (max-width:320px){
     
-}
+} */
 /* @media all and (min-width:321px) and (max-width:375px){
     
 } */
