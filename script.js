@@ -40,7 +40,7 @@ var i = 0;
 var score = 500;
 
 const displayQuestion = ()=>{
-    for(var a=0; a<span.length; a++){
+    for(var a = 0; a < span.length; a++){
         span[a].style.background = 'none;'
     }
     question.innerHTML = questionBank[i].question;
