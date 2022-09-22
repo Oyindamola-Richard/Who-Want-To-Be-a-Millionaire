@@ -53,7 +53,7 @@ const displayQuestion = ()=>{
 
 //function to calculate scores
 const calcScore = (e)=>{
-    if(e.innerHTML===questionBank[i].answer && score<questionBank.length){
+    if(e.innerHTML === questionBank[i].answer && score < questionBank.length){
         score = score+1;
         document.getElementById(e.id).style.background = 'green';
     }
@@ -64,7 +64,7 @@ const calcScore = (e)=>{
 }
 
 const nextQuestion = ()=>{
-    if(i<questionBank.length-1){
+    if(i < questionBank.length - 1){
         i = i+1
         displayQuestion();
     }
@@ -89,7 +89,7 @@ const checkAnswer = ()=>{
     var answers = document.getElementById('answers');
     answerBank.style.display = 'block';
     scoreboard.style.display = 'none';
-    for(var a=0; a<questionBank.length; a++){
+    for(var a = 0; a < questionBank.length; a++){
         var list = document.createElement('li');
         list.innerHTML = questionBank[a].answer;
         answers.appendChild(list);
