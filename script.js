@@ -104,3 +104,6 @@ function fifty(){
 function phone(){
     document.getElementById('phone').src="/img/phone-a-friend-used.png"
 }
+function ask(){
+    document.getElementById('ask').src="/img/ask-the-audience-used.png"
+}
