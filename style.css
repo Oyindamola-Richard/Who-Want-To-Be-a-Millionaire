@@ -17,7 +17,7 @@ body{
     gap: 30px;
     padding: 20px 20px 0px 0px;
 }
-#alticon{
+.alticon{
     cursor: pointer;
 }
 #quiz-container{
