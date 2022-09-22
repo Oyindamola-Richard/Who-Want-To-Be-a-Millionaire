@@ -38,6 +38,14 @@ var points = document.getElementById('score');
 var span = document.querySelectorAll('span');
 var i = 0;
 var score = 500;
+let correctSound = new Audio('sound_correct.mp3')
+let incorrectSound = new Audio('sound_incorrect.mp3')
+let fiftySound = new Audio('50-50_sound.mp3')
+let askAudsound = new Audio('Ask The Audience_sound.mp3')
+let phoneSound = new Audio('Phone-A-Friend_sound.mp3')
+let closingSound = new Audio('Closing Theme_sound.mp3')
+let backgroundSound = new Audio('sound_background.mp3')
+let timeupSound = new Audio('Time_Up_sound.mp3')
 
 const displayQuestion = ()=>{
     for(var a = 0; a < span.length; a++){
