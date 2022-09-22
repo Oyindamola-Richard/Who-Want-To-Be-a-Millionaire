@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
     /* backdrop-filter: blur(2px); */
 }
 .gen-container{
@@ -23,10 +24,7 @@ body{
     cursor: pointer;
 }
 #quiz-container{
-    /* border: 1px solid red; */
-    /* position: absolute;
-    bottom: 0px; */
-    margin-top: 270px;
+    margin-top: 280px;
 }
 #question-div{
     border: 5px solid #ffffff;
@@ -46,7 +44,6 @@ body{
     background-color: #0715C2;
 }
 ol{
-    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
