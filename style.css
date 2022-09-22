@@ -84,6 +84,9 @@ span{
 
 /* responsiveness */
 @media all and (max-width:320px){
+    body{
+    background-image: url(/img/welcome-background-mobile.jpg);
+    }
     .gen-container{
         padding: 0px;
     }
@@ -103,7 +106,7 @@ span{
     }
     ol{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 10px;
         padding: 10px 0px 0px 0px;
     }
