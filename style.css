@@ -60,9 +60,9 @@ button{
         border: none;
     }
 }
-/* @media all and (min-width:376px) and (max-width:425px){
+@media all and (min-width:376px) and (max-width:425px){
     
-} */
+}
 /* @media all and (min-width:426px) and (max-width:768px){
     
 } */
