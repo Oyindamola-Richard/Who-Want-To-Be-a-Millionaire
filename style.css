@@ -111,3 +111,15 @@ button{
         font-size: 1.4em;
     }
 }
+@media all and (min-width:912px) and (max-width:1024px){
+    button{
+        position: relative;
+        height: 130px;
+        width: 130px;
+        border-radius: 50em;
+        background-color: #CAC1B4;
+        color: #DD9B91;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+}
