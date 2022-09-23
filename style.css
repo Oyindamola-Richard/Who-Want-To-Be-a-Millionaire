@@ -61,7 +61,9 @@ button{
     }
 }
 @media all and (min-width:376px) and (max-width:425px){
-    
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
 }
 /* @media all and (min-width:426px) and (max-width:768px){
     
