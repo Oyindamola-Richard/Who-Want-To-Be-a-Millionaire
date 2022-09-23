@@ -10,5 +10,4 @@ body{
         background-size: cover;
         height: 100vh;
         overflow: hidden;
-        /* backdrop-filter: blur(2px); */
 }

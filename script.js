@@ -140,3 +140,8 @@ function ask(){
     ask.onclick = ""
     askAudsound.play()
 }
+
+//function to start game
+function startGame(){
+    window.location.href = "game.html"
+}
