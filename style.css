@@ -39,6 +39,11 @@ button{
     body{
         background-image: url(/img/welcome-background-mobile.jpg);
     }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
     button{
         height: 1.7em;
         width: 12em;
@@ -55,6 +60,11 @@ button{
     body{
         background-image: url(/img/welcome-background-mobile.jpg);
     }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
     button{
         height: 1.8em;
         width: 14em;
@@ -70,6 +80,11 @@ button{
 @media all and (min-width:376px) and (max-width:425px){
     body{
         background-image: url(/img/welcome-background-mobile.jpg);
+    }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
     }
     button{
         height: 1.8em;
