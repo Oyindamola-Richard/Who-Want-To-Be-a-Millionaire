@@ -48,6 +48,7 @@ button{
         font-weight: 600;
         font-size: 1.4em;
         border: none;
+        animation: none;
     }
 }
 @media all and (min-width:321px) and (max-width:375px){
@@ -63,6 +64,7 @@ button{
         font-weight: 600;
         font-size: 1.4em;
         border: none;
+        animation: none;
     }
 }
 @media all and (min-width:376px) and (max-width:425px){
@@ -78,6 +80,7 @@ button{
         font-weight: 600;
         font-size: 1.4em;
         border: none;
+        animation: none;
     }
 }
 @media all and (min-width:426px) and (max-width:768px){
