@@ -86,9 +86,10 @@ const nextQuestion = ()=>{
         // location.reload()
     }
     else{
-        points.innerHTML = `Congratulation youve earned $ ${score}`;
+        points.innerHTML = `Congratulation you've earned $ ${score}`;
         quizContainer.style.display = 'none';
         scoreboard.style.display = 'block'
+        alticonDiv.style.display = 'none';
     }
 }
 
@@ -101,18 +102,18 @@ const backToQuiz = ()=>{
 }
 
 // function to check anwsers
-const checkAnswer = ()=>{
-    var answerBank = document.getElementById('answerBank');
-    var answers = document.getElementById('answers');
-    answerBank.style.display = 'block';
-    scoreboard.style.display = 'none';
-    for(var a = 0; a < questionBank.length; a++){
-        var list = document.createElement('li');
-        list.innerHTML = questionBank[a].answer;
-        answers.appendChild(list);
-    }
+// const checkAnswer = ()=>{
+//     var answerBank = document.getElementById('answerBank');
+//     var answers = document.getElementById('answers');
+//     answerBank.style.display = 'block';
+//     scoreboard.style.display = 'none';
+//     for(var a = 0; a < questionBank.length; a++){
+//         var list = document.createElement('li');
+//         list.innerHTML = questionBank[a].answer;
+//         answers.appendChild(list);
+//     }
 
-}
+// }
 displayQuestion();
 
 // function to 50/50 option
