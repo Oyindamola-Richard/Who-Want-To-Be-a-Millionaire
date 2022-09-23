@@ -99,6 +99,6 @@ button{
         font-size: 1.4em;
     }
 }
-/* @media all and (min-width:821px) and (max-width:912px){
+@media all and (min-width:821px) and (max-width:912px){
     
-} */
+}
