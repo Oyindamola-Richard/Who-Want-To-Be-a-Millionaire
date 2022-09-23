@@ -46,9 +46,9 @@ button{
 
     }
 }
-/* @media all and (min-width:321px) and (max-width:375px){
+@media all and (min-width:321px) and (max-width:375px){
     
-} */
+}
 /* @media all and (min-width:376px) and (max-width:425px){
     
 } */
