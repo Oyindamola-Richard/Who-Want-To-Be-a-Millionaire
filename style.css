@@ -9,5 +9,20 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
-        overflow: hidden;
+        /* overflow: hidden; */
+}
+
+.gen-div{
+    border: 1px solid red;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    /* background: transparent; */
 }
