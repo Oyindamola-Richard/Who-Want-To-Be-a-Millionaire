@@ -13,7 +13,6 @@ body{
 }
 
 .gen-div{
-    border: 1px solid red;
     height: 100vh;
     display: grid;
     justify-content: center;
@@ -21,8 +20,11 @@ body{
 }
 button{
     position: relative;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
-    /* background: transparent; */
+    background-color: #CAC1B4;
+    color: #DD9B91;
+    font-weight: 900;
+    font-size: 1.4em;
 }
