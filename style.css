@@ -27,6 +27,11 @@ button{
     color: #DD9B91;
     font-weight: 900;
     font-size: 1.4em;
+    animation: rotate 5s infinite;
+}
+@keyframes rotate {
+    0%{rotate: 180;}
+    100%{rotate: 360deg;}
 }
 
 /* responsiveness */
