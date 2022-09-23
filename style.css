@@ -64,6 +64,16 @@ button{
     body{
         background-image: url(/img/welcome-background-mobile.jpg);
     }
+    button{
+        height: 1.8em;
+        width: 14em;
+        border-radius: 50em;
+        background-color: #8EE71D;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.4em;
+        border: none;
+    }
 }
 /* @media all and (min-width:426px) and (max-width:768px){
     
