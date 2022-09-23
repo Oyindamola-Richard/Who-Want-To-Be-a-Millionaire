@@ -15,6 +15,17 @@ body{
 .gen-container{
     padding: 20px;
 }
+#scoreboard{
+    border: 1px solid red;
+    background-image: url(/img/video-bg.jpg);
+    height: 90vh;
+    text-align: center;
+}
+#score{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .alt-icon-div{
     display: flex;
     justify-content: end;
