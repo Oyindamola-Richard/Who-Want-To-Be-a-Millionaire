@@ -16,7 +16,7 @@ body{
     padding: 20px;
 }
 #scoreboard{
-    border: 1px solid red;
+    border: 5px solid #2C0033;
     background-image: url(/img/video-bg.jpg);
     height: 90vh;
     text-align: center;
@@ -25,6 +25,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
+    font-size: 3em;
 }
 .alt-icon-div{
     display: flex;

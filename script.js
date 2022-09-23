@@ -39,18 +39,18 @@ var span = document.querySelectorAll('span');
 var i = 0;
 var score = 500;
 
-let correctSound = new Audio('/audio/sound_correct.mp3')
-let incorrectSound = new Audio('/audio/sound_incorrect.mp3')
-let fiftySound = new Audio('/audio/50-50_sound.mp3')
-let askAudsound = new Audio('/audio/Ask The Audience_sound.mp3')
-let phoneSound = new Audio('/audio/Phone-A-Friend_sound.mp3')
-let closingSound = new Audio('/audio/Closing Theme_sound.mp3')
-let backgroundSound = new Audio('/audio/sound_background.mp3')
-let timeupSound = new Audio('/audio/Time_Up_sound.mp3')
+let correctSound = new Audio('/audio/sound_correct.mp3');
+let incorrectSound = new Audio('/audio/sound_incorrect.mp3');
+let fiftySound = new Audio('/audio/50-50_sound.mp3');
+let askAudsound = new Audio('/audio/Ask The Audience_sound.mp3');
+let phoneSound = new Audio('/audio/Phone-A-Friend_sound.mp3');
+let closingSound = new Audio('/audio/Closing Theme_sound.mp3');
+let backgroundSound = new Audio('/audio/sound_background.mp3');
+let timeupSound = new Audio('/audio/Time_Up_sound.mp3');
 
 const displayQuestion = ()=>{
     for(var a = 0; a < span.length; a++){
-        span[a].style.background = 'none;'
+        span[a].style.background = 'none';
     }
     question.innerHTML = questionBank[i].question;
     option0.innerHTML = questionBank[i].option[0];
@@ -86,7 +86,7 @@ const nextQuestion = ()=>{
         // location.reload()
     }
     else{
-        points.innerHTML = `Congratulation you've earned $ ${score}`;
+        points.innerHTML = `Congratulation you've earned <br> ₦ ${score}`;
         quizContainer.style.display = 'none';
         scoreboard.style.display = 'block'
         alticonDiv.style.display = 'none';
