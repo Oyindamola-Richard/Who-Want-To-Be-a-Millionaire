@@ -207,7 +207,15 @@ span{
     }
 }
 @media all and (min-width:426px) and (max-width:768px){
-    
+    #quiz-container{
+        margin-top: 170px;
+    }
+    #question{
+        font-size: 1.2em;
+    }
+    .option{
+        font-size: 1.2em;
+    }
 }
 /* @media all and (min-width:769px) and (max-width:820px){
     
