@@ -75,9 +75,9 @@ button{
         border: none;
     }
 }
-/* @media all and (min-width:426px) and (max-width:768px){
+@media all and (min-width:426px) and (max-width:768px){
     
-} */
+}
 /* @media all and (min-width:769px) and (max-width:820px){
     
 } */
