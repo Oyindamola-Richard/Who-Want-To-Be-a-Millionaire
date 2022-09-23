@@ -35,6 +35,7 @@ var option2 = document.getElementById('option2');
 var option3 = document.getElementById('option3');
 var next = document.querySelector('.next');
 var points = document.getElementById('score');
+var earned = document.getElementById('dispEarned');
 var span = document.querySelectorAll('span');
 var i = 0;
 var score = 500;
@@ -80,7 +81,7 @@ const nextQuestion = ()=>{
     if(i < questionBank.length - 1){
         i = i+1
         displayQuestion();
-        //option2.style.background = "blue"
+        earned.innerHTML = `₦ ${score}`;
         // setTimeout(nextQuestion, 5000)
         // alert("Game Over")
         // location.reload()

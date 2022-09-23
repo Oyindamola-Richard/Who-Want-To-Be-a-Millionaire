@@ -36,7 +36,29 @@ body{
     cursor: pointer;
 }
 #quiz-container{
-    margin-top: 280px;
+    margin-top: 230px;
+}
+.dispEarned-div{
+    border: 1px solid #ffffff;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border-radius: 50em;
+    position: relative;
+    margin-bottom: -30px;
+}
+#dispEarned{
+    /* border: 1px solid #ffffff; */
+    background-color: #CC9D23;
+    color: black;
+    font-size: 2.2em;
+    font-weight: 900;
+    height: 3rem;
+    width: 10rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 50em;
+    padding: 5px 50px;
 }
 #question-div{
     border: 5px solid #ffffff;
