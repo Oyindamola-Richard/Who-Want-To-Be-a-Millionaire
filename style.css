@@ -217,9 +217,9 @@ span{
         font-size: 1.2em;
     }
 }
-/* @media all and (min-width:769px) and (max-width:820px){
+@media all and (min-width:769px) and (max-width:820px){
     
-} */
+}
 /* @media all and (min-width:821px) and (max-width:912px){
     
 } */
