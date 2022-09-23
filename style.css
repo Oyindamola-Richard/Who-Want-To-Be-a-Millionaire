@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+body{
+        color: #ffffff;
+        font-family: sans-serif;
+        background-image: url(/img/welcome-background-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        overflow: hidden;
+        /* backdrop-filter: blur(2px); */
+}
