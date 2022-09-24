@@ -141,6 +141,17 @@ span{
     .alticon{
         height: 40px;
     }
+    .dispEarned-div{
+        border-radius: 0em;
+        margin-bottom: -20px;
+    }
+    #dispEarned{
+        font-size: 1.2em;
+        height: 2rem;
+        width: 5rem;
+        border-radius: 0em;
+        padding: 5px 50px;
+    }
     #quiz-container{
         position: absolute;
         bottom: 0;
