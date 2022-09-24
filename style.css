@@ -20,18 +20,19 @@ body{
 }
 button{
     position: relative;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background-color: #CAC1B4;
     color: #DD9B91;
     font-weight: 900;
     font-size: 1.4em;
-    animation: rotate 5s infinite;
+    animation: rotate 3s infinite;
 }
 @keyframes rotate {
-    0%{rotate: 180;}
-    100%{rotate: 360deg;}
+    0%{scale: 100%;}
+    50%{scale: 80%;}
+    100%{rotate: 100;}
 }
 
 /* responsiveness */
