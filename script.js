@@ -71,6 +71,10 @@ function calcScore(e){
     else{
         document.getElementById(e.id).style.background = 'red';
         incorrectSound.play()
+        points.innerHTML = `Congratulation you've earned <br> ₦ ${score}`;
+        scoreboard.style.display = 'block'
+        quizContainer.style.display = 'none'
+        alticonDiv.style.display = 'none';
         // alert("Game Over")
 
     }
