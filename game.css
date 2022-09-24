@@ -134,6 +134,16 @@ span{
     .gen-container{
         padding: 0px;
     }
+    #scoreboard{
+        height: 100vh;
+        width: 100vw;
+    }
+    /* .over{
+        border: 1px solid red;
+    } */
+    #score{
+        font-size: 2em;
+    }
     .alt-icon-div{
         justify-content: center;
         padding: 10px 0px 0px 0px;
