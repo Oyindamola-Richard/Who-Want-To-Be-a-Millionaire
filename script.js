@@ -85,8 +85,6 @@ const nextQuestion = ()=>{
         displayQuestion();
         earned.innerHTML = `₦ ${score}`;
         // setTimeout(nextQuestion, 5000)
-        // alert("Game Over")
-        // location.reload()
     }
     else{
         points.innerHTML = `Congratulation you've earned <br> ₦ ${score}`;
