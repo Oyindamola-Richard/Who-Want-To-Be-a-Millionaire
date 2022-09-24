@@ -20,7 +20,18 @@ body{
     background-image: url(/img/video-bg.jpg);
     height: 90vh;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+#score-btn{
+    border: none;
+    background: transparent;
+    width: fit-content;
+    margin: auto;
+}
+/* .over{
+    border: 1px solid red;
+} */
 #score{
     display: grid;
     justify-content: center;

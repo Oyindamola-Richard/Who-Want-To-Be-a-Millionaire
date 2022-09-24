@@ -71,7 +71,7 @@ function calcScore(e){
         document.getElementById(e.id).style.background = 'red';
         incorrectSound.play()
         points.innerHTML = `Congratulation you've earned <br> ₦ ${score}`;
-        scoreboard.style.display = 'block'
+        scoreboard.style.display = 'grid'
         quizContainer.style.display = 'none'
         alticonDiv.style.display = 'none';
 
@@ -91,7 +91,7 @@ const nextQuestion = ()=>{
     else{
         points.innerHTML = `Congratulation you've earned <br> ₦ ${score}`;
         quizContainer.style.display = 'none';
-        scoreboard.style.display = 'block'
+        scoreboard.style.display = 'grid'
         alticonDiv.style.display = 'none';
     }
 }
