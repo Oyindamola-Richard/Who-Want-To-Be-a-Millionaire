@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* backdrop-filter: blur(2px); */
 }
 .gen-container{
@@ -36,7 +36,7 @@ body{
     cursor: pointer;
 }
 #quiz-container{
-    margin-top: 260px;
+    margin-top: 240px;
 }
 .dispEarned-div{
     border: 1px solid #ffffff;
