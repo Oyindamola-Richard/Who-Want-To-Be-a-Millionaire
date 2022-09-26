@@ -318,6 +318,9 @@ span{
     #quiz-container{
         margin-top: 500px;
     }
+    .alt-icon-div{
+        justify-content: center;
+    }
     #question{
         font-size: 1.2em;
     }
@@ -328,6 +331,9 @@ span{
 @media all and (min-width:821px) and (max-width:912px){
     #quiz-container{
         margin-top: 500px;
+    }
+    .alt-icon-div{
+        justify-content: center;
     }
     #question{
         font-size: 1.2em;
