@@ -29,6 +29,11 @@ var questionBank = [
         option : ['Bawoni','Adios','Salir','Hola'],
         answer : 'Adios'
     },
+    {
+        question : '"Which of the following regions is NOT a part of the United Kingdom?',
+        option : ['England','Wales','The Isle of Man','Scotland'],
+        answer : 'The Isle of Man'
+    },
 ]
 
 var question = document.getElementById('question');
