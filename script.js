@@ -23,7 +23,12 @@ var questionBank = [
         question : 'First human heart transplanted operation conducted br Dr. Washkanshy, was conducted in',
         option : ['1958','1968','1967','1922'],
         answer : '1967'
-    }
+    },
+    {
+        question : 'How would one say goodbye in Spanish?',
+        option : ['Bawoni','Adios','Salir','Hola'],
+        answer : 'Adios'
+    },
 ]
 
 var question = document.getElementById('question');
