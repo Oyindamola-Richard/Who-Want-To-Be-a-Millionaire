@@ -100,7 +100,28 @@ button{
         animation: none;
     }
 }
-@media all and (min-width:426px) and (max-width:768px){
+@media all and (min-width:426px) and (max-width:720px){
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
+    button{
+        height: 1.8em;
+        width: 15em;
+        border-radius: 50em;
+        background-color: #8EE71D;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.4em;
+        border: none;
+        animation: none;
+    }
+}
+@media all and (min-width:721px) and (max-width:768px){
     button{
         position: relative;
         height: 80px;
