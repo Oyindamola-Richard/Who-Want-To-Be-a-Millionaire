@@ -91,6 +91,8 @@ const nextQuestion = ()=>{
         quizContainer.style.display = 'none';
         scoreboard.style.display = 'grid'
         alticonDiv.style.display = 'none';
+        backgroundSound.pause()
+        closingSound.play()
     }
 }
 
