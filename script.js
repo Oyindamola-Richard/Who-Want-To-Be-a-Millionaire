@@ -65,6 +65,7 @@ function calcScore(e){
     if(e.innerHTML === questionBank[i].answer && score > questionBank.length){
         score += 500;
         document.getElementById(e.id).style.background = 'green';
+        // backgroundSound.pause()
         correctSound.play()
     }
     else{
