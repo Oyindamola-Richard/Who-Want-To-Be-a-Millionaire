@@ -64,11 +64,11 @@ body{
     font-size: 2.2em;
     font-weight: 900;
     height: 3rem;
-    width: 12rem;
+    width: 15rem;
     margin: auto;
     text-align: center;
     border-radius: 50em;
-    padding: 5px 50px;
+    padding: 5px 0px;
 }
 #question-div{
     border: 5px solid #ffffff;
@@ -158,7 +158,7 @@ span{
     #dispEarned{
         font-size: 1.2em;
         height: 2rem;
-        width: 5rem;
+        width: 7rem;
         border-radius: 0em;
         padding: 5px 50px;
     }
@@ -220,7 +220,7 @@ span{
     #dispEarned{
         font-size: 1.2em;
         height: 2rem;
-        width: 5rem;
+        width: 7rem;
         border-radius: 0em;
         padding: 5px 50px;
     }
@@ -282,7 +282,7 @@ span{
     #dispEarned{
         font-size: 1.2em;
         height: 2rem;
-        width: 5rem;
+        width: 7rem;
         border-radius: 0em;
         padding: 5px 50px;
     }
