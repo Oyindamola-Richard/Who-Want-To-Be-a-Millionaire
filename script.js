@@ -38,7 +38,7 @@ var points = document.getElementById('score');
 var earned = document.getElementById('dispEarned');
 var span = document.querySelectorAll('span');
 var i = 0;
-var score = 500;
+var score = 1000;
 
 let correctSound = new Audio('/audio/sound_correct.mp3');
 let incorrectSound = new Audio('/audio/sound_incorrect.mp3');
@@ -63,7 +63,7 @@ const displayQuestion = ()=>{
 //function to calculate scores
 function calcScore(e){
     if(e.innerHTML === questionBank[i].answer && score > questionBank.length){
-        score += 500;
+        score = score * 2;
         document.getElementById(e.id).style.background = 'green';
         // backgroundSound.pause()
         correctSound.play()
