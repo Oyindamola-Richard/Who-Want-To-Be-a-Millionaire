@@ -10,7 +10,6 @@ body{
     background-size: cover;
     height: 100vh;
     overflow: hidden;
-    /* backdrop-filter: blur(2px); */
 }
 .gen-container{
     padding: 20px;
@@ -30,9 +29,6 @@ body{
     width: fit-content;
     margin: auto;
 }
-/* .over{
-    border: 1px solid red;
-} */
 #score{
     display: grid;
     justify-content: center;
@@ -139,9 +135,6 @@ span{
         height: 110vh;
         width: 100vw;
     }
-    /* .over{
-        border: 1px solid red;
-    } */
     #score{
         font-size: 2em;
     }
@@ -201,9 +194,6 @@ span{
         height: 110vh;
         width: 100vw;
     }
-    /* .over{
-        border: 1px solid red;
-    } */
     #score{
         font-size: 2em;
     }
@@ -263,9 +253,6 @@ span{
         height: 110vh;
         width: 100vw;
     }
-    /* .over{
-        border: 1px solid red;
-    } */
     #score{
         font-size: 2em;
     }
