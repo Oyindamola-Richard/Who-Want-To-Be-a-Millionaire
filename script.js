@@ -39,6 +39,11 @@ var questionBank = [
         option : ['Germanic','Romance','Slavic','Sitinic'],
         answer : 'Germanic'
     },
+    {
+        question : 'Portugal borders only one other country. Which one is it?',
+        option : ['Italy','Monaco','Spain','Germany'],
+        answer : 'Spain'
+    },
 ]
 
 var question = document.getElementById('question');
