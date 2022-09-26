@@ -78,7 +78,7 @@ function calcScore(e){
         backgroundSound.pause()
         closingSound.play()
     }
-    setTimeout(nextQuestion, 3000);
+    setTimeout(nextQuestion, 4000);
 }
 
 const nextQuestion = ()=>{
