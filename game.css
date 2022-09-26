@@ -313,7 +313,7 @@ span{
         font-size: 1em;
     }
 }
-@media all and (min-width:426px) and (max-width:720px){
+@media all and (min-width:426px) and (max-width:720px) and (max-height:1600px){
     body{
         background-image: url(/img/welcome-background-mobile.jpg);
     }
