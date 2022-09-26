@@ -74,7 +74,8 @@ function calcScore(e){
         scoreboard.style.display = 'grid'
         quizContainer.style.display = 'none'
         alticonDiv.style.display = 'none';
-
+        backgroundSound.pause()
+        closingSound.play()
     }
     setTimeout(nextQuestion, 3000);
 }
