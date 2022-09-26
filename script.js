@@ -134,3 +134,8 @@ function ask(){
 function startGame(){
     window.location.href = "game.html"
 }
+
+//function to onload of game.html
+function onloadGame(){
+    backgroundSound.play()
+}
