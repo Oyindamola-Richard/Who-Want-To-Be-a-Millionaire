@@ -71,7 +71,7 @@ function calcScore(e){
     else{
         document.getElementById(e.id).style.background = 'red';
         incorrectSound.play()
-        points.innerHTML = `Congratulation you won <br> ₦ ${score}`;
+        points.innerHTML = `Congratulations <br> you won <br> ₦ ${score}`;
         scoreboard.style.display = 'grid'
         quizContainer.style.display = 'none'
         alticonDiv.style.display = 'none';
@@ -89,7 +89,7 @@ const nextQuestion = ()=>{
         // setTimeout(nextQuestion, 5000)
     }
     else{
-        points.innerHTML = `Congratulation you won <br> ₦ ${score}`;
+        points.innerHTML = `Congratulations <br> you won <br> ₦ ${score}`;
         quizContainer.style.display = 'none';
         scoreboard.style.display = 'grid'
         alticonDiv.style.display = 'none';
