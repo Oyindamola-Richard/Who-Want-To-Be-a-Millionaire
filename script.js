@@ -44,6 +44,11 @@ var questionBank = [
         option : ['Italy','Monaco','Spain','Germany'],
         answer : 'Spain'
     },
+    {
+        question : 'What does the British slang “tosh” stand for?',
+        option : ['Dishes','Purse','Dough','Nonsense'],
+        answer : 'Nonsense'
+    },
 ]
 
 var question = document.getElementById('question');
