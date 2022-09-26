@@ -315,6 +315,9 @@ span{
     }
 }
 @media all and (min-width:426px) and (max-width:820px){
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
     #quiz-container{
         margin-top: 500px;
     }
