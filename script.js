@@ -49,6 +49,11 @@ var questionBank = [
         option : ['Dishes','Purse','Dough','Nonsense'],
         answer : 'Nonsense'
     },
+    {
+        question : 'What is the capital of Estonia?',
+        option : ['Talinn','Riga','Ikorodu','Ogbomoso'],
+        answer : 'Talinn'
+    }
 ]
 
 var question = document.getElementById('question');
