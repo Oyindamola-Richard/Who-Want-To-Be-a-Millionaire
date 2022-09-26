@@ -30,9 +30,14 @@ var questionBank = [
         answer : 'Adios'
     },
     {
-        question : '"Which of the following regions is NOT a part of the United Kingdom?',
+        question : 'Which of the following regions is NOT a part of the United Kingdom?',
         option : ['England','Wales','The Isle of Man','Scotland'],
         answer : 'The Isle of Man'
+    },
+    {
+        question : 'English belongs to what Indo-European language family?',
+        option : ['Germanic','Romance','Slavic','Sitinic'],
+        answer : 'Germanic'
     },
 ]
 
