@@ -68,7 +68,7 @@ var points = document.getElementById('score');
 var earned = document.getElementById('dispEarned');
 var span = document.querySelectorAll('span');
 var i = 0;
-var score = 1000;
+var score = 500;
 
 let correctSound = new Audio('/audio/sound_correct.mp3');
 let incorrectSound = new Audio('/audio/sound_incorrect.mp3');
