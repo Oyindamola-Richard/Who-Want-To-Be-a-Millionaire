@@ -21,7 +21,7 @@ var questionBank = [
     },
     {
         question : 'First human heart transplanted operation conducted br Dr. Washkanshy, was conducted in',
-        option : ['1967','1968','1958','1922'],
+        option : ['1958','1968','1967','1922'],
         answer : '1967'
     }
 ]
