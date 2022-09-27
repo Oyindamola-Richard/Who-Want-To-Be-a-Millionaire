@@ -101,9 +101,14 @@ var questionBank = [
         answer : 'France'
     },
     {
-        question : '"Where was the croissant invented?',
+        question : 'Where was the croissant invented?',
         option : ['Switzeland','France','Austria','Norway'],
         answer : 'Austria'
+    },
+    {
+        question : 'Russia is a — what?',
+        option : ['Federation','Kingdom','Democratic Republic','State of Anarchy'],
+        answer : 'Federation'
     },
 ]
 
