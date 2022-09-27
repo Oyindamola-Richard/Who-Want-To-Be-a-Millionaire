@@ -1,12 +1,12 @@
 // Question Var
 var questionBank = [
     {
-        question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
+        question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of?',
         option : ['Asia','Africa','Europe','Nigeria'],
         answer : 'Africa'
     },
     {
-        question : 'Garampani sanction is located at',
+        question : 'Garampani sanction is located at?',
         option : ['Junagarh, Gujarat','Diphu, Assam','Kohima, Nagaland','Gangtok, Sikkim'],
         answer : 'Diphu, Assam'
     },
@@ -16,12 +16,12 @@ var questionBank = [
         answer : 'All of the above'
     },
     {
-        question : 'Hitler party which came into power in 1933 is known as',
+        question : 'Hitler party which came into power in 1933 is known as?',
         option : ['Labour Party','Nazi Party','Ku-Klux-Klan','Democratic Party'],
         answer : 'Nazi Party'
     },
     {
-        question : 'First human heart transplanted operation conducted br Dr. Washkanshy, was conducted in',
+        question : 'First human heart transplanted operation conducted br Dr. Washkanshy, was conducted in?',
         option : ['1958','1968','1967','1922'],
         answer : '1967'
     },
@@ -54,7 +54,12 @@ var questionBank = [
         question : 'What is the capital of Estonia?',
         option : ['Talinn','Riga','Ikorodu','Ogbomoso'],
         answer : 'Talinn'
-    }
+    },
+    {
+        question : 'What is the more common name for a “lexicon”?',
+        option : ['Prayers Book','Dictionary','Autobiography','Travel guide'],
+        answer : 'Dictionary'
+    },
 ]
 
 var question = document.getElementById('question');
