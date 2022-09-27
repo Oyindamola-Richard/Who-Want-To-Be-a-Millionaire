@@ -85,6 +85,11 @@ var questionBank = [
         option : ['Cyprus','Vatican City','Ikoyi','Singapore'],
         answer : 'Vatican City'
     },
+    {
+        question : 'Who won Eurovision in 2015 with the Mans Zelmerlow song entitled “Heroes”?',
+        option : ['Sweden','France','Poland','Estonia'],
+        answer : 'Sweden'
+    },
 ]
 
 var question = document.getElementById('question');
