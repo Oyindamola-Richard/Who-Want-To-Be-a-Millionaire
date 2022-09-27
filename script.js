@@ -90,6 +90,11 @@ var questionBank = [
         option : ['Sweden','France','Poland','Estonia'],
         answer : 'Sweden'
     },
+    {
+        question : 'How many people in the world speak English?',
+        option : ['Around 100 million','Around 480 million','Around 260 million','Around a billion'],
+        answer : 'Around 480 million'
+    },
 ]
 
 var question = document.getElementById('question');
