@@ -60,6 +60,11 @@ var questionBank = [
         option : ['Prayers Book','Dictionary','Autobiography','Travel guide'],
         answer : 'Dictionary'
     },
+    {
+        question : 'What does the word “renaissance” stand for?',
+        option : ['Rebirth','Truth','Life','Knowledge'],
+        answer : 'Rebirth'
+    },
 ]
 
 var question = document.getElementById('question');
