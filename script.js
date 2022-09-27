@@ -1,3 +1,4 @@
+//Question Var
 var questionBank = [
     {
         question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
