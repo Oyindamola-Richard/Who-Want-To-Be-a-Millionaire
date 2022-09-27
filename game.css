@@ -126,7 +126,7 @@ span{
 /* responsiveness */
 @media all and (max-width:280px){
     body{
-            background-image: url(/img/welcome-background-mobile.jpg);
+            /* background-image: url(/img/welcome-background-mobile.jpg); */
             height: 110vh;
             width: 100vw;
         }
@@ -186,9 +186,9 @@ span{
         }
 }
 @media all and (min-width:281px) and (max-width:320px){
-    body{
+    /* body{
     background-image: url(/img/welcome-background-mobile.jpg);
-    }
+    } */
     .gen-container{
         padding: 0px;
     }
@@ -246,7 +246,7 @@ span{
 }
 @media all and (min-width:321px) and (max-width:375px){
     body{
-        background-image: url(/img/welcome-background-mobile.jpg);
+        /* background-image: url(/img/welcome-background-mobile.jpg); */
         height: 110vh;
     }
     .gen-container{
@@ -306,7 +306,7 @@ span{
 }
 @media all and (min-width:376px) and (max-width:425px){
     body{
-        background-image: url(/img/welcome-background-mobile.jpg);
+        /* background-image: url(/img/welcome-background-mobile.jpg); */
         height: 110vh;
     }
     .gen-container{
