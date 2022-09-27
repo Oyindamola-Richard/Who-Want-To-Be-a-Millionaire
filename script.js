@@ -130,6 +130,11 @@ var questionBank = [
         option : ['Russia','Canada','United States','Africa'],
         answer : 'Russia'
     },
+    {
+        question : 'Which of the following is a Germanic language?',
+        option : ['Flemish','Dutch','Afrikaans','Luxembourgish'],
+        answer : 'Afrikaans'
+    },
 ]
 
 var question = document.getElementById('question');
