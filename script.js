@@ -70,6 +70,11 @@ var questionBank = [
         option : ['Sani Abacha','Adolf Hitler','Voltear','Martin Luther'],
         answer : 'Martin Luther'
     },
+    {
+        question : 'Poisson d’Avril is the French equivalent of what day?',
+        option : ['Good Friday','April Fools','Christmas Eve','Thanksgiving'],
+        answer : 'April Fools'
+    },
 ]
 
 var question = document.getElementById('question');
