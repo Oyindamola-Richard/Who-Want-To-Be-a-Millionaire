@@ -75,6 +75,11 @@ var questionBank = [
         option : ['Good Friday','April Fools','Christmas Eve','Thanksgiving'],
         answer : 'April Fools'
     },
+    {
+        question : 'What is the most widely translated book in the world?',
+        option : ['The Bible','Don Quixote','Hamlet','The Great Gatsby'],
+        answer : 'The Bible'
+    },
 ]
 
 var question = document.getElementById('question');
