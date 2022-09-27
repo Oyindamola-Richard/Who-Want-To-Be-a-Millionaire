@@ -80,6 +80,11 @@ var questionBank = [
         option : ['The Bible','Don Quixote','Hamlet','The Great Gatsby'],
         answer : 'The Bible'
     },
+    {
+        question : 'Which of the following countries is the smallest in the world?',
+        option : ['Cyprus','Vatican City','Ikoyi','Singapore'],
+        answer : 'Vatican City'
+    },
 ]
 
 var question = document.getElementById('question');
