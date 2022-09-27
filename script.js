@@ -115,6 +115,11 @@ var questionBank = [
         option : ['Confliction','Configuration','Contraction','Conflagciation'],
         answer : 'Conflagciation'
     },
+    {
+        question : 'How many languages are spoken around the world?',
+        option : ['2,000','Over 7,000','1,506','Over 50,000'],
+        answer : 'Over 7,000'
+    },
 ]
 
 var question = document.getElementById('question');
