@@ -1,4 +1,4 @@
-//Question Var
+// Question Var
 var questionBank = [
     {
         question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of',
@@ -80,7 +80,7 @@ let closingSound = new Audio('/audio/Closing Theme_sound.mp3');
 let backgroundSound = new Audio('/audio/sound_background.mp3');
 let timeupSound = new Audio('/audio/Time_Up_sound.mp3');
 
-//Function to display questions
+// Function to display questions
 const displayQuestion = ()=>{
     for(var a = 0; a < span.length; a++){
         span[a].style.background = 'none';
@@ -92,7 +92,7 @@ const displayQuestion = ()=>{
     option3.innerHTML = questionBank[i].option[3];
 }
 
-//function to calculate scores
+// Function to calculate scores
 function calcScore(e){
     if(e.innerHTML === questionBank[i].answer && score > questionBank.length){
         score = score * 2;
@@ -113,7 +113,7 @@ function calcScore(e){
     setTimeout(nextQuestion, 4000);
 }
 
-//Function to display next question
+// Function to display next question
 const nextQuestion = ()=>{
     if(i < questionBank.length - 1){
         i = i+1
@@ -132,17 +132,17 @@ const nextQuestion = ()=>{
     }
 }
 
-//click event to next button
+// Click event to next button
 next.addEventListener('click',nextQuestion);
 
-//back to Quiz button event
+// Back to Quiz button event
 const backToQuiz = ()=>{
     location.reload();
 }
 
 displayQuestion();
 
-// function to 50/50 option
+// Function to 50/50 option
 function fifty(){
     let fifty = document.getElementById("fifty")
     option0.innerHTML = "....."
@@ -152,7 +152,7 @@ function fifty(){
     fiftySound.play()
 }
 
-// function to phone a friend
+// Function to phone a friend
 function phone(){
     let phone = document.getElementById("phone")
     document.getElementById('phone').src="/img/phone-a-friend-used.png"
@@ -160,7 +160,7 @@ function phone(){
     phoneSound.play()
 }
 
-// function to ask audience
+// Function to ask audience
 function ask(){
     let ask = document.getElementById("ask")
     document.getElementById('ask').src="/img/ask-the-audience-used.png"
@@ -168,12 +168,12 @@ function ask(){
     askAudsound.play()
 }
 
-//function to start game
+// Function to start game
 function startGame(){
     window.location.href = "game.html"
 }
 
-//function to onload of game.html
+// Function to onload of game.html
 function onloadGame(){
     backgroundSound.play()
 }
