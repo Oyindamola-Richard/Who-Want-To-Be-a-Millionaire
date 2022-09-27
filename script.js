@@ -80,6 +80,7 @@ let closingSound = new Audio('/audio/Closing Theme_sound.mp3');
 let backgroundSound = new Audio('/audio/sound_background.mp3');
 let timeupSound = new Audio('/audio/Time_Up_sound.mp3');
 
+//Function to display questions
 const displayQuestion = ()=>{
     for(var a = 0; a < span.length; a++){
         span[a].style.background = 'none';
