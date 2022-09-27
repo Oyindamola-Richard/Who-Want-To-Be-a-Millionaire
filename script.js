@@ -149,7 +149,7 @@ var questionBank = [
         question : 'What is the motto of the European Union?',
         option : ['United in diversity','Don’t be evil','United in coal and steel','Embracing diversity in unison'],
         answer : 'United in diversity'
-    },
+    }
 ]
 
 var question = document.getElementById('question');
