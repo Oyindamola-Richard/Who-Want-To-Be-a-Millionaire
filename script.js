@@ -100,6 +100,11 @@ var questionBank = [
         option : ['Nigeria','Germany','France','MexicoMexico'],
         answer : 'France'
     },
+    {
+        question : '"Where was the croissant invented?',
+        option : ['Switzeland','France','Austria','Norway'],
+        answer : 'Austria'
+    },
 ]
 
 var question = document.getElementById('question');
