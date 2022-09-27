@@ -113,6 +113,7 @@ function calcScore(e){
     setTimeout(nextQuestion, 4000);
 }
 
+//Function to display next question
 const nextQuestion = ()=>{
     if(i < questionBank.length - 1){
         i = i+1
