@@ -1,6 +1,11 @@
 // Question Var
 var questionBank = [
     {
+        question : 'When is Halloween celebrated?',
+        option : ['September 1st','October 31st','August 30th','October 1st'],
+        answer : 'October 31st'
+    },
+    {
         question : 'Eritrea, which became the 182nd member of the UN in 1993, is in the continent of?',
         option : ['Asia','Africa','Europe','Nigeria'],
         answer : 'Africa'
