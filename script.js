@@ -110,6 +110,11 @@ var questionBank = [
         option : ['Federation','Kingdom','Democratic Republic','State of Anarchy'],
         answer : 'Federation'
     },
+    {
+        question : 'Which of these words is misspelled?',
+        option : ['Confliction','Configuration','Contraction','Conflagciation'],
+        answer : 'Conflagciation'
+    },
 ]
 
 var question = document.getElementById('question');
