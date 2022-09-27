@@ -95,6 +95,11 @@ var questionBank = [
         option : ['Around 100 million','Around 480 million','Around 260 million','Around a billion'],
         answer : 'Around 480 million'
     },
+    {
+        question : 'Which country won football World Cup 2018?',
+        option : ['Nigeria','Germany','France','MexicoMexico'],
+        answer : 'France'
+    },
 ]
 
 var question = document.getElementById('question');
