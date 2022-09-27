@@ -125,6 +125,11 @@ var questionBank = [
         option : ['2,000','Over 7,000','1,506','Over 50,000'],
         answer : 'Over 7,000'
     },
+    {
+        question : 'What’s the largest country in the world, by geographic area?',
+        option : ['Russia','Canada','United States','Africa'],
+        answer : 'Russia'
+    },
 ]
 
 var question = document.getElementById('question');
