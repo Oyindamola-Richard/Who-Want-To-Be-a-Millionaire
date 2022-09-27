@@ -65,6 +65,11 @@ var questionBank = [
         option : ['Rebirth','Truth','Life','Knowledge'],
         answer : 'Rebirth'
     },
+    {
+        question : 'Which famous theologian founded Protestantism?',
+        option : ['Sani Abacha','Adolf Hitler','Voltear','Martin Luther'],
+        answer : 'Martin Luther'
+    },
 ]
 
 var question = document.getElementById('question');
