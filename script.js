@@ -7,7 +7,7 @@ var questionBank = [
     },
     {
         question : 'What does “ASAP” stand for?',
-        option : ['As soon as possible','As soon as prelevant','As soon as prepared','As simple as possible'],
+        option : ['As soon as prelevant','As soon as possible','As soon as prepared','As simple as possible'],
         answer : 'As soon as possible'
     },
     {
