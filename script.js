@@ -251,6 +251,7 @@ function fifty(){
 function phone(){
     let phone = document.getElementById("phone")
     document.getElementById('phone').src="/img/phone-a-friend-used.png"
+    window.location.href = "tel:"
     phone.onclick = ""
     phoneSound.play()
 }
