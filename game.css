@@ -160,7 +160,7 @@ span{
         #quiz-container{
             position: absolute;
             bottom: 0;
-            width: 280px;
+            width: 100vw;
         }
         #question-div{
             border-radius: 0;
@@ -216,7 +216,7 @@ span{
     #quiz-container{
         position: absolute;
         bottom: 0;
-        width: 320px;
+        width: 100vw;
     }
     #question-div{
         border-radius: 0;
@@ -275,7 +275,7 @@ span{
     #quiz-container{
         position: absolute;
         bottom: 0;
-        width: 375px;
+        width: 100vw;
     }
     #question-div{
         border-radius: 0;
@@ -334,7 +334,7 @@ span{
     #quiz-container{
         position: absolute;
         bottom: 0;
-        width: 425px;
+        width: 100vw;
     }
     #question-div{
         border-radius: 0;
@@ -393,7 +393,7 @@ span{
     #quiz-container{
         position: absolute;
         bottom: 0;
-        width: 720px;
+        width: 100vw;
     }
     #question-div{
         border-radius: 0;
